@@ -1,0 +1,9 @@
+2025-11-06 14:40:36 [main] INFO com.ui.listeners.TestListener::onStart::50 Test suite started 
+2025-11-06 14:40:36 [TestNG-test-UI Automation Test-1] INFO com.ui.tests.LoginTest::setup::38 Load home page of the website 
+2025-11-06 14:40:46 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::25 loginTest 
+2025-11-06 14:40:46 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::26 Verify valid user is able to login into the application 
+2025-11-06 14:40:46 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2025-11-06 14:40:46 [TestNG-test-UI Automation Test-1] INFO com.ui.tests.LoginTest::loginTest::17 started test 
+2025-11-06 14:40:49 [TestNG-test-UI Automation Test-1] INFO com.ui.tests.LoginTest::loginTest::20 completed test 
+2025-11-06 14:40:49 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestSuccess::31 loginTest PASSED 
+2025-11-06 14:40:50 [main] INFO com.ui.listeners.TestListener::onFinish::55 Test suite completed 
