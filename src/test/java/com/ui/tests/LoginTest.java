@@ -20,7 +20,8 @@ public class LoginTest extends TestBase {
         logger.info("completed test");
 
     }
-    public void loginInvalidTest(){
+    @Test(description = "Verify valid user is able to login into the application", groups = {"e2e","sanity"})
+        public void loginInvalidTest(){
         logger.info("started test");
         assertEquals(homePage.goToLoginPage().doLoginWith("bakomam596@skrak.com","password")
                 .getUserName(), "Jatin Sharma1");
