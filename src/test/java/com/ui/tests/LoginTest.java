@@ -17,7 +17,7 @@ public class LoginTest extends TestBase {
 
     @BeforeMethod(description = "Valid user logs into the application")
     public void setup() {
-        myAccountPage = homePage.goToLoginPage().doLoginWith("", "");
+        myAccountPage = homePage.goToLoginPage().doLoginWith("bakomam596@skrak.com", "password");
     }
 
     @Test(description = "Verify valid user is able to login into the application", groups = {"e2e","sanity"})
