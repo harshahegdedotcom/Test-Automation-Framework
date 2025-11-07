@@ -1,9 +1,18 @@
-2025-11-06 14:40:36 [main] INFO com.ui.listeners.TestListener::onStart::50 Test suite started 
-2025-11-06 14:40:36 [TestNG-test-UI Automation Test-1] INFO com.ui.tests.LoginTest::setup::38 Load home page of the website 
-2025-11-06 14:40:46 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::25 loginTest 
-2025-11-06 14:40:46 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::26 Verify valid user is able to login into the application 
-2025-11-06 14:40:46 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
-2025-11-06 14:40:46 [TestNG-test-UI Automation Test-1] INFO com.ui.tests.LoginTest::loginTest::17 started test 
-2025-11-06 14:40:49 [TestNG-test-UI Automation Test-1] INFO com.ui.tests.LoginTest::loginTest::20 completed test 
-2025-11-06 14:40:49 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestSuccess::31 loginTest PASSED 
-2025-11-06 14:40:50 [main] INFO com.ui.listeners.TestListener::onFinish::55 Test suite completed 
+2025-11-07 09:58:20 [main] INFO com.ui.listeners.TestListener::onStart::50 Test suite started 
+2025-11-07 09:58:20 [main] INFO com.ui.tests.SearchProductTest::setup::36 Load home page of the website 
+2025-11-07 09:58:30 [main] INFO com.ui.pages.LoginPage::enterText::92 Finding an element with the locator By.id: email 
+2025-11-07 09:58:30 [main] INFO com.ui.pages.LoginPage::enterText::94 Element found and now enter By.id: email 
+2025-11-07 09:58:30 [main] INFO com.ui.pages.LoginPage::enterText::92 Finding an element with the locator By.id: passwd 
+2025-11-07 09:58:30 [main] INFO com.ui.pages.LoginPage::enterText::94 Element found and now enter By.id: passwd 
+2025-11-07 09:58:30 [main] INFO com.ui.listeners.TestListener::onTestStart::25 verifyProductSearchTest 
+2025-11-07 09:58:30 [main] INFO com.ui.listeners.TestListener::onTestStart::26 Verify logged in user is able to search for right product 
+2025-11-07 09:58:30 [main] INFO com.ui.listeners.TestListener::onTestStart::27 [smoke, e2e, sanity] 
+2025-11-07 09:58:30 [main] INFO com.ui.pages.MyAccountPage::enterText::92 Finding an element with the locator By.id: search_query_top 
+2025-11-07 09:58:31 [main] INFO com.ui.pages.MyAccountPage::enterText::94 Element found and now enter By.id: search_query_top 
+2025-11-07 09:58:31 [main] INFO com.ui.pages.MyAccountPage::enterSpecialKey::100 Finding an element with the locator By.id: search_query_top 
+2025-11-07 09:58:31 [main] INFO com.ui.pages.MyAccountPage::enterSpecialKey::102 Found element and now enter special  
+2025-11-07 09:58:31 [main] INFO com.ui.pages.SearchResultPage::getAllVisibleText::116 Finding all elements with the locator By.xpath: //h5[@itemprop='name']/a 
+2025-11-07 09:58:32 [main] INFO com.ui.pages.SearchResultPage::getAllVisibleText::118 Printing all elements with the locator By.xpath: //h5[@itemprop='name']/a 
+2025-11-07 09:58:32 [main] ERROR com.ui.listeners.TestListener::onTestFailure::35 verifyProductSearchTest FAILED 
+2025-11-07 09:58:32 [main] ERROR com.ui.listeners.TestListener::onTestFailure::36 expected [true] but found [true] 
+2025-11-07 09:58:32 [main] INFO com.ui.listeners.TestListener::onFinish::55 Test suite completed 
