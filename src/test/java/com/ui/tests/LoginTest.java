@@ -13,10 +13,17 @@ public class LoginTest extends TestBase {
 
 
     @Test(description = "Verify valid user is able to login into the application", groups = {"e2e","sanity"})
-    public void loginTest(){
+    public void loginValidTest(){
         logger.info("started test");
         assertEquals(homePage.goToLoginPage().doLoginWith("bakomam596@skrak.com","password")
-                .getUserName(), "Jatin Sharma11");
+                .getUserName(), "Jatin Sharma");
+        logger.info("completed test");
+
+    }
+    public void loginInvalidTest(){
+        logger.info("started test");
+        assertEquals(homePage.goToLoginPage().doLoginWith("bakomam596@skrak.com","password")
+                .getUserName(), "Jatin Sharma1");
         logger.info("completed test");
 
     }
